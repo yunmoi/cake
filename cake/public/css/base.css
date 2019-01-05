@@ -1,0 +1,23 @@
+/*公共样式*/
+*{
+	padding:0;
+	margin:0;
+}
+body{
+/*	font-family:"微软雅黑","Arial","Times New Roman";*/
+	color:#684029;
+	font-size:18px;
+}
+/* 去掉a标签下划线 */
+a{
+	color:#684029;
+	text-decoration:none;
+}
+a:hover{
+	color:#92764e;
+}
+li{
+	list-style:none;
+}
+/*头部*/
+/*底部*/

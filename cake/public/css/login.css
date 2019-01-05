@@ -1,0 +1,41 @@
+#first{
+	margin:0px;
+}
+.content_box{
+	position:relative;
+	margin:0 auto;
+	padding-bottom:50px;
+	background-image:url(../img/bg_reg.jpg);
+	height:800px;
+	width:100%;
+}
+.form_log_box{
+	position:absolute;
+	width:200px;
+	top:270px;
+	left:1200px;
+	padding:28px 42px;
+	border:1px #E9E9E9 solid;
+	background:#fff;
+}
+.form_log_box form>p>input{
+  width:200px;
+	height:25px;
+}
+.form_log_box p{
+  margin-top:18px;
+}
+.remember{
+	font-size:13px;
+}
+.remember span{
+	margin-left:18px;
+}
+.form_log_box .log #first{
+	margin-left:55px;
+} 
+@media screen and (max-width: 1450px){
+  .content_box{
+		width: 1450px;
+	}
+}
